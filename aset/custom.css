@@ -1,0 +1,58 @@
+.required {
+  color: #e02222;
+  font-size: 12px;
+  padding-left: 2px;
+}
+.table tbody tr > td.warna {
+  background-color: #d0d4db !important;
+}
+
+/* Mengubah warna latar belakang navbar utama */
+.skin-purple-light .main-header .navbar {
+    background-color: #626F47 !important; /* Ganti dengan kode warna yang Anda inginkan, contoh: biru bootstrap */
+}
+
+/* Mengubah warna latar belakang logo */
+.skin-purple-light .main-header .logo {
+    background-color: #626F47 !important; /* Ganti dengan kode warna yang Anda inginkan, contoh: biru bootstrap yang lebih gelap */
+    /* Jika Anda juga ingin mengubah warna teks logo */
+    /* color: #ffffff !important; */
+}
+
+/* Mengubah warna tombol toggle sidebar (hamburger menu) */
+.skin-purple-light .main-header .navbar .sidebar-toggle {
+    color: #ffffff !important; /* Warna ikon toggle */
+}
+
+/* Mengubah warna tombol toggle sidebar saat di-hover */
+.skin-purple-light .main-header .navbar .sidebar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Warna latar belakang saat hover */
+    color: #f6f6f6 !important; /* Warna ikon saat hover */
+}
+
+/* Mengubah warna teks pada logo jika diperlukan */
+.skin-purple-light .main-header .logo .logo-lg,
+.skin-purple-light .main-header .logo .logo-mini {
+    color: #ffffff !important; /* Warna teks logo */
+}
+
+/* Mengubah warna link di navbar kanan (jika diperlukan) */
+.skin-purple-light .main-header .navbar .nav > li > a {
+    color: #ffffff !important; /* Warna teks link di navbar */
+}
+
+/* Mengubah warna link di navbar kanan saat di-hover (jika diperlukan) */
+.skin-purple-light .main-header .navbar .nav > li > a:hover,
+.skin-purple-light .main-header .navbar .nav > li > a:active,
+.skin-purple-light .main-header .navbar .nav > li > a:focus {
+    background: rgba(0,0,0,0.1) !important;
+    color: #f6f6f6 !important;
+}
+
+/* Jika Anda menggunakan dropdown di menu user, Anda mungkin juga ingin menyesuaikan ini */
+.skin-purple-light .main-header .navbar .nav .open > a,
+.skin-purple-light .main-header .navbar .nav .open > a:hover,
+.skin-purple-light .main-header .navbar .nav .open > a:focus {
+    background: rgba(0,0,0,0.1) !important;
+    color: #f6f6f6 !important;
+}
